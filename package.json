@@ -1,0 +1,28 @@
+{
+  "name": "express-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton for web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorPahota/express-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorPahota/express-skeleton/issues"
+  },
+  "homepage": "https://github.com/IgorPahota/express-skeleton#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "kill-port": "^1.6.0",
+    "mongoose": "^5.8.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
